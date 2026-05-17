@@ -43,7 +43,7 @@ function setLanguage(lang) {
 
   document.getElementById('hero-title').innerText = isArabic ? 'حلول الاختبارات الإلكترونية' : 'Online Assessment Solutions';
   document.getElementById('hero-description').innerText = isArabic ? 'خدمات احترافية لإنشاء وإدارة الاختبارات الإلكترونية للمعلمين والمؤسسات التعليمية' : 'Professional online exam creation and management services for teachers and institutions.';
-  document.getElementById('packages-title').innerText = isArabic ? 'الخدمات المتاحة للفصل الدراسي' : 'Services available for the semester';
+  document.getElementById('packages-title').innerText = isArabic ? 'الخدمات المتاحة خلال الفصل الدراسي ( 4 أشهر )' : 'Services available for the semester ( 4 Months )';
   document.getElementById('primary-btn').innerText = isArabic ? 'الابتدائي' : 'Primary';
   document.getElementById('prep-btn').innerText = isArabic ? 'الإعدادي' : 'Preparatory';
   document.getElementById('secondary-btn').innerText = isArabic ? 'الثانوي' : 'Secondary';
