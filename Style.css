@@ -22,6 +22,15 @@ body {
     font-size: 3rem;
 }
 
+#hero-logo {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto 18px auto;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
 .section-title {
     text-align: center;
     margin: 50px 0 20px;
