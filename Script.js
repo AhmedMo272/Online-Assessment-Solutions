@@ -43,7 +43,7 @@ function setLanguage(lang) {
 
   document.getElementById('hero-title').innerText = isArabic ? 'حلول الاختبارات الإلكترونية' : 'Online Assessment Solutions';
   document.getElementById('hero-description').innerText = isArabic ? 'خدمات احترافية لإنشاء وإدارة الاختبارات الإلكترونية للمعلمين والمؤسسات التعليمية' : 'Professional online exam creation and management services for teachers and institutions.';
-  document.getElementById('packages-title').innerText = isArabic ? 'الخدمات المتاحة خلال الفصل الدراسي ( 4 أشهر )' : 'Services available for the semester ( 4 Months )';
+  document.getElementById('packages-title').innerText = isArabic ? 'الخدمات المتاحة خلال الفصل الدراسي ' : 'Services available for the semester ( 4 Months )';
   document.getElementById('primary-btn').innerText = isArabic ? 'الابتدائي' : 'Primary';
   document.getElementById('prep-btn').innerText = isArabic ? 'الإعدادي' : 'Preparatory';
   document.getElementById('secondary-btn').innerText = isArabic ? 'الثانوي' : 'Secondary';
@@ -51,14 +51,14 @@ function setLanguage(lang) {
   document.getElementById('standard-title').innerText = isArabic ? 'الباقة المتوسطة' : 'Standard Package';
   document.getElementById('advanced-title').innerText = isArabic ? 'الباقة الاحترافية' : 'Advanced Package';
   document.getElementById('seperated-title').innerText = isArabic ? 'خدمة منفصلة' : 'Separated Service';  
-  document.getElementById('starter-1').innerText = isArabic ? '4 اختبارات شهريًا' : '4 Exams per Month';
+  document.getElementById('starter-1').innerText = isArabic ? '16 اختبار ' : '16 Exams ';
   document.getElementById('starter-2').innerText = isArabic ? 'إعداد الاختبارات إلكترونيًا' : 'Online Exam Setup';
   document.getElementById('starter-3').innerText = isArabic ? 'تنسيق أساسي للاختبارات' : 'Basic Formatting';
   document.getElementById('starter-4').innerText = isArabic ? 'تصحيح تلقائي للاختبارات' : 'Automatic Grading';
-  document.getElementById('standard-1').innerText = isArabic ? '8 اختبار شهريًا' : '8 Exams per Month';
+  document.getElementById('standard-1').innerText = isArabic ? '32 اختبار ' : '32 Exams ';
   document.getElementById('standard-2').innerText = isArabic ? 'تصحيح تلقائي للاختبارات' : 'Automatic Grading';
   document.getElementById('standard-3').innerText = isArabic ? 'تصميم احترافي للاختبارات' : 'Professional Design';
-  document.getElementById('advanced-1').innerText = isArabic ? '16 اختبار شهريًا' : '16 Exams per Month';
+  document.getElementById('advanced-1').innerText = isArabic ? '64 اختبار ' : '64 Exams ';
   document.getElementById('advanced-2').innerText = isArabic ? 'دعم فني سريع' : 'Priority Support';
   document.getElementById('advanced-3').innerText = isArabic ? 'تقارير تفصيلية للنتائج' : 'Detailed Reports';
   document.getElementById('advanced-4').innerText = isArabic ? 'تصحيح تلقائي للاختبارات' : 'Automatic Grading';
