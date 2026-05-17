@@ -50,6 +50,7 @@ function setLanguage(lang) {
   document.getElementById('starter-title').innerText = isArabic ? 'الباقة الأساسية' : 'Starter Package';
   document.getElementById('standard-title').innerText = isArabic ? 'الباقة المتوسطة' : 'Standard Package';
   document.getElementById('advanced-title').innerText = isArabic ? 'الباقة الاحترافية' : 'Advanced Package';
+  document.getElementById('seperated-title').innerText = isArabic ? 'خدمة منفصلة' : 'Separated Service';  
   document.getElementById('starter-1').innerText = isArabic ? '4 اختبارات شهريًا' : '4 Exams per Month';
   document.getElementById('starter-2').innerText = isArabic ? 'إعداد الاختبارات إلكترونيًا' : 'Online Exam Setup';
   document.getElementById('starter-3').innerText = isArabic ? 'تنسيق أساسي للاختبارات' : 'Basic Formatting';
@@ -60,6 +61,11 @@ function setLanguage(lang) {
   document.getElementById('advanced-1').innerText = isArabic ? '16 اختبار شهريًا' : '16 Exams per Month';
   document.getElementById('advanced-2').innerText = isArabic ? 'دعم فني سريع' : 'Priority Support';
   document.getElementById('advanced-3').innerText = isArabic ? 'تقارير تفصيلية للنتائج' : 'Detailed Reports';
+  document.getElementById('advanced-4').innerText = isArabic ? 'تصحيح تلقائي للاختبارات' : 'Automatic Grading';
+  document.getElementById('seperated-1').innerText = isArabic ? '1 اختبار' : '1 Exam';
+  document.getElementById('seperated-2').innerText = isArabic ? 'إعداد الاختبارات إلكترونيًا' : 'Online Exam Setup';
+  document.getElementById('seperated-3').innerText = isArabic ? 'تنسيق أساسي للاختبارات' : 'Basic Formatting';
+  document.getElementById('seperated-4').innerText = isArabic ? 'تصحيح تلقائي للاختبارات' : 'Automatic Grading';
   document.getElementById('calc-title').innerText = isArabic ? 'حاسبة الأسعار' : 'Dynamic Pricing Calculator';
   document.getElementById('calc-btn').innerText = isArabic ? 'احسب التكلفة' : 'Calculate Price';
   document.getElementById('form-title').innerText = isArabic ? 'نموذج طلب المعلم' : 'Teacher Request Form';
